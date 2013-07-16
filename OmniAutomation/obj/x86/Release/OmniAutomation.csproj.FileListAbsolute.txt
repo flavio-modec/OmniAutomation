@@ -1,0 +1,35 @@
+C:\Users\foliveira\AppData\Local\Temporary Projects\OmniAutomation\bin\Release\OmniAutomation.exe
+C:\Users\foliveira\AppData\Local\Temporary Projects\OmniAutomation\bin\Release\OmniAutomation.pdb
+C:\Users\foliveira\AppData\Local\Temporary Projects\OmniAutomation\bin\Release\log4net.dll
+C:\Users\foliveira\AppData\Local\Temporary Projects\OmniAutomation\bin\Release\Modbus.dll
+C:\Users\foliveira\AppData\Local\Temporary Projects\OmniAutomation\bin\Release\Modbus.Extensions.dll
+C:\Users\foliveira\AppData\Local\Temporary Projects\OmniAutomation\bin\Release\Unme.Common.dll
+C:\Users\foliveira\AppData\Local\Temporary Projects\OmniAutomation\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\foliveira\AppData\Local\Temporary Projects\OmniAutomation\obj\x86\Release\OmniAutomation.Form1.resources
+C:\Users\foliveira\AppData\Local\Temporary Projects\OmniAutomation\obj\x86\Release\OmniAutomation.Properties.Resources.resources
+C:\Users\foliveira\AppData\Local\Temporary Projects\OmniAutomation\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\foliveira\AppData\Local\Temporary Projects\OmniAutomation\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\foliveira\AppData\Local\Temporary Projects\OmniAutomation\obj\x86\Release\OmniAutomation.exe
+C:\Users\foliveira\AppData\Local\Temporary Projects\OmniAutomation\obj\x86\Release\OmniAutomation.pdb
+C:\Users\foliveira\documents\visual studio 2010\Projects\OmniAutomation\OmniAutomation\obj\x86\Release\OmniAutomation.exe
+C:\Users\foliveira\documents\visual studio 2010\Projects\OmniAutomation\OmniAutomation\obj\x86\Release\OmniAutomation.pdb
+C:\Users\foliveira\documents\visual studio 2010\Projects\OmniAutomation\OmniAutomation\bin\Release\OmniAutomation.exe
+C:\Users\foliveira\documents\visual studio 2010\Projects\OmniAutomation\OmniAutomation\bin\Release\OmniAutomation.pdb
+C:\Users\foliveira\documents\visual studio 2010\Projects\OmniAutomation\OmniAutomation\bin\Release\log4net.dll
+C:\Users\foliveira\documents\visual studio 2010\Projects\OmniAutomation\OmniAutomation\bin\Release\Modbus.dll
+C:\Users\foliveira\documents\visual studio 2010\Projects\OmniAutomation\OmniAutomation\bin\Release\Modbus.Extensions.dll
+C:\Users\foliveira\documents\visual studio 2010\Projects\OmniAutomation\OmniAutomation\bin\Release\Unme.Common.dll
+C:\Users\foliveira\documents\visual studio 2010\Projects\OmniAutomation\OmniAutomation\obj\x86\Release\OmniAutomation.Form1.resources
+C:\Users\foliveira\documents\visual studio 2010\Projects\OmniAutomation\OmniAutomation\obj\x86\Release\OmniAutomation.Properties.Resources.resources
+C:\Users\foliveira\Documents\Visual Studio 2010\Projects\OmniAutomation\OmniAutomation\obj\x86\Release\OmniAutomation.csproj.ResolveComReference.cache
+C:\Users\foliveira\documents\visual studio 2010\Projects\OmniAutomation\OmniAutomation\obj\x86\Release\OmniAutomation.csprojResolveAssemblyReference.cache
+C:\Users\foliveira\documents\visual studio 2010\Projects\OmniAutomation\OmniAutomation\obj\x86\Release\OmniAutomation.csproj.GenerateResource.Cache
+C:\Users\foliveira\Documents\Visual Studio 2012\Projects\OmniAutomation\OmniAutomation\bin\Release\OmniAutomation.exe
+C:\Users\foliveira\Documents\Visual Studio 2012\Projects\OmniAutomation\OmniAutomation\bin\Release\OmniAutomation.pdb
+C:\Users\foliveira\Documents\Visual Studio 2012\Projects\OmniAutomation\OmniAutomation\obj\x86\Release\OmniAutomation.csprojResolveAssemblyReference.cache
+C:\Users\foliveira\Documents\Visual Studio 2012\Projects\OmniAutomation\OmniAutomation\obj\x86\Release\OmniAutomation.csproj.ResolveComReference.cache
+C:\Users\foliveira\Documents\Visual Studio 2012\Projects\OmniAutomation\OmniAutomation\obj\x86\Release\OmniAutomation.Form1.resources
+C:\Users\foliveira\Documents\Visual Studio 2012\Projects\OmniAutomation\OmniAutomation\obj\x86\Release\OmniAutomation.Properties.Resources.resources
+C:\Users\foliveira\Documents\Visual Studio 2012\Projects\OmniAutomation\OmniAutomation\obj\x86\Release\OmniAutomation.csproj.GenerateResource.Cache
+C:\Users\foliveira\Documents\Visual Studio 2012\Projects\OmniAutomation\OmniAutomation\obj\x86\Release\OmniAutomation.exe
+C:\Users\foliveira\Documents\Visual Studio 2012\Projects\OmniAutomation\OmniAutomation\obj\x86\Release\OmniAutomation.pdb

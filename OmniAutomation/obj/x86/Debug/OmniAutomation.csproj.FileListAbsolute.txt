@@ -1,0 +1,14 @@
+C:\Users\foliveira\documents\visual studio 2010\Projects\OmniAutomation\OmniAutomation\bin\Debug\OmniAutomation.exe
+C:\Users\foliveira\documents\visual studio 2010\Projects\OmniAutomation\OmniAutomation\bin\Debug\OmniAutomation.pdb
+C:\Users\foliveira\documents\visual studio 2010\Projects\OmniAutomation\OmniAutomation\bin\Debug\log4net.dll
+C:\Users\foliveira\documents\visual studio 2010\Projects\OmniAutomation\OmniAutomation\bin\Debug\Modbus.dll
+C:\Users\foliveira\documents\visual studio 2010\Projects\OmniAutomation\OmniAutomation\bin\Debug\Modbus.Extensions.dll
+C:\Users\foliveira\documents\visual studio 2010\Projects\OmniAutomation\OmniAutomation\bin\Debug\Unme.Common.dll
+C:\Users\foliveira\documents\visual studio 2010\Projects\OmniAutomation\OmniAutomation\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\foliveira\documents\visual studio 2010\Projects\OmniAutomation\OmniAutomation\obj\x86\Debug\OmniAutomation.Form1.resources
+C:\Users\foliveira\documents\visual studio 2010\Projects\OmniAutomation\OmniAutomation\obj\x86\Debug\OmniAutomation.Properties.Resources.resources
+C:\Users\foliveira\documents\visual studio 2010\Projects\OmniAutomation\OmniAutomation\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\foliveira\documents\visual studio 2010\Projects\OmniAutomation\OmniAutomation\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\foliveira\documents\visual studio 2010\Projects\OmniAutomation\OmniAutomation\obj\x86\Debug\OmniAutomation.exe
+C:\Users\foliveira\documents\visual studio 2010\Projects\OmniAutomation\OmniAutomation\obj\x86\Debug\OmniAutomation.pdb
+C:\Users\foliveira\Documents\Visual Studio 2010\Projects\OmniAutomation\OmniAutomation\obj\x86\Debug\OmniAutomation.csproj.ResolveComReference.cache
