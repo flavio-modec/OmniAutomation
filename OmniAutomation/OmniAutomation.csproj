@@ -90,6 +90,7 @@
     </Compile>
     <Compile Include="GetReports.cs" />
     <Compile Include="OmniIpMaster.cs" />
+    <Compile Include="Options.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="XMLcreator.cs" />

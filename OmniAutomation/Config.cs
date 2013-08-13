@@ -32,6 +32,32 @@ namespace OmniAutomation
 
         public void Download(System.Windows.Forms.ProgressBar progress)
         {
+            for (ushort attempt = 0; attempt < 3; attempt++) //try 3 times getting config from Omni if it fails
+            {
+                try
+                {
+                    Download_attempt(progress);
+                    break;
+                }
+                catch { System.Threading.Thread.Sleep(500); } //wait 500ms before trying again
+            }
+        }
+
+        public void Save(System.Windows.Forms.ProgressBar progress, string directory)
+        {
+            for (ushort attempt = 0; attempt < 3; attempt++) //try 3 times getting config from Omni if it fails
+            {
+                try
+                {
+                    Save_attempt(progress, directory);
+                    break;
+                }
+                catch { System.Threading.Thread.Sleep(500); } //wait 500ms before trying again
+            }
+        }
+
+        private void Download_attempt(System.Windows.Forms.ProgressBar progress)
+        {
             float[] floatRange;
 
             //Connect
@@ -156,7 +182,7 @@ namespace OmniAutomation
             progress.Value = 63;//complete
         }
 
-        public void Save(System.Windows.Forms.ProgressBar progress, string directory)
+        public void Save_attempt(System.Windows.Forms.ProgressBar progress, string directory)
         {
             Application excelApp = new Application();
             string myDirectory = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
@@ -311,6 +337,32 @@ namespace OmniAutomation
 
         public void Download(System.Windows.Forms.ProgressBar progress)
         {
+            for (ushort attempt = 0; attempt < 3; attempt++) //try 3 times getting config from Omni if it fails
+            {
+                try
+                {
+                    Download_attempt(progress);
+                    break;
+                }
+                catch { System.Threading.Thread.Sleep(500); } //wait 500ms before trying again
+            }
+        }
+
+        public void Save(System.Windows.Forms.ProgressBar progress, string directory)
+        {
+            for (ushort attempt = 0; attempt < 3; attempt++) //try 3 times getting config from Omni if it fails
+            {
+                try
+                {
+                    Save_attempt(progress, directory);
+                    break;
+                }
+                catch { System.Threading.Thread.Sleep(500); } //wait 500ms before trying again
+            }
+        }
+
+        private void Download_attempt(System.Windows.Forms.ProgressBar progress)
+        {
             float[] floatRange;
             //progress bar
             //Form1 popForm = new Form1();
@@ -434,9 +486,9 @@ namespace OmniAutomation
                 _product27[j].type = omniMaster.ReadInt16((ushort)(3813 + j), 1)[0];
                 _product27[j].name = omniMaster.ReadString((ushort)(4820 + j), 1);
                 _product27[j].viscosity = omniMaster.ReadFloat((ushort)(17251 + 30 * j), 1)[0];
-                _product27[j].isoentropicExp = omniMaster.ReadFloat((ushort)(17253 + 30 * j), 1)[0];
-                _product27[j].heatingValue = omniMaster.ReadFloat((ushort)(17254 + 30 * j), 1)[0];
-                _product27[j].relativeDens = omniMaster.ReadFloat((ushort)(17255 + 30 * j), 1)[0];
+                _product27[j].isoentropicExp = omniMaster.ReadFloat((ushort)(17252 + 30 * j), 1)[0];
+                _product27[j].heatingValue = omniMaster.ReadFloat((ushort)(17253 + 30 * j), 1)[0];
+                _product27[j].relativeDens = omniMaster.ReadFloat((ushort)(17254 + 30 * j), 1)[0];
                 _product27[j].densMethod = omniMaster.ReadInt16((ushort)(3817 + j), 1)[0];
 
                 _product27[j].cromathography = new float[22];
@@ -475,7 +527,7 @@ namespace OmniAutomation
             progress.Value = 63; //complete
             //popForm.Close();
         }
-        public void Save(System.Windows.Forms.ProgressBar progress, string directory)
+        private void Save_attempt(System.Windows.Forms.ProgressBar progress, string directory)
         {
             progress.Value = 0; 
 

@@ -16,7 +16,33 @@ namespace OmniAutomation
 {
     class GetReports
     {
+        private string _myDir;
+        private string _todayDir;
+
+        public string myDir { get { return _myDir; } }
+        public string todayDir { get { return _todayDir; } }
+
+        public GetReports(string myDir, string todayDir)
+        {
+            _myDir = myDir;
+            _todayDir = todayDir;
+        }
+
         public void GetDaily(ProgressBar progress, ushort FC)
+        {
+            for (ushort attempt = 0; attempt < 3; attempt++) //try 3 times getting daily from Omni if it fails
+            {
+                try
+                {
+                    GetDailyReport(progress, FC);
+                    System.IO.File.Move(myDir + "/FC" + Convert.ToString(FC) + "_daily.txt", todayDir + "/FC" + Convert.ToString(FC) + "_daily.txt");
+                    break;
+                }
+                catch { System.Threading.Thread.Sleep(500); } //wait 500ms before trying again
+            }
+        }
+
+        private void GetDailyReport(ProgressBar progress, ushort FC)
         {
             progress.Value = 0;
             //Connect
@@ -55,12 +81,30 @@ namespace OmniAutomation
 
         public void GetAlarms(ProgressBar progress, ushort FC, ushort quantity)
         {
-            GetAlarmsEvents(progress, FC, quantity, true);
+            for (ushort attempt = 0; attempt < 3; attempt++) //try 3 times getting daily from Omni if it fails
+            {
+                try
+                {
+                    GetAlarmsEvents(progress, FC, quantity, true);
+                    System.IO.File.Move(myDir + "/FC" + Convert.ToString(FC) + "_alarms.txt", todayDir + "/FC" + Convert.ToString(FC) + "_alarms.txt");
+                    break;
+                }
+                catch { System.Threading.Thread.Sleep(500); } //wait 500ms before trying again
+            }
         }
 
         public void GetEvents(ProgressBar progress, ushort FC, ushort quantity)
         {
-            GetAlarmsEvents(progress, FC, quantity, false);
+            for (ushort attempt = 0; attempt < 3; attempt++) //try 3 times getting daily from Omni if it fails
+            {
+                try
+                {
+                    GetAlarmsEvents(progress, FC, quantity, false);
+                    System.IO.File.Move(myDir + "/FC" + Convert.ToString(FC) + "_events.txt", todayDir + "/FC" + Convert.ToString(FC) + "_events.txt");
+                    break;
+                }
+                catch { System.Threading.Thread.Sleep(500); } //wait 500ms before trying again
+            }
         }
 
         private void GetAlarmsEvents(ProgressBar progress, ushort FC, ushort quantity, bool getAlarms)

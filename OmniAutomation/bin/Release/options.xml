@@ -1,0 +1,18 @@
+<Options>
+  <Reports_Path>C:\OmniReports</Reports_Path>
+  <XML004_Path>C:\XLR\Reports</XML004_Path>
+  <Unit_Code>10468</Unit_Code>
+  <Generation_Time>17:30</Generation_Time>
+  <Number_of_Omnis>18</Number_of_Omnis>
+  <Number_Oil_Omnis>10</Number_Oil_Omnis>
+  <Fiscal_Omnis>
+    <FC>3</FC>
+    <FC>4</FC>
+    <FC>5</FC>
+    <FC>11</FC>
+    <FC>12</FC>
+    <FC>13</FC>
+    <FC>14</FC>
+    <FC>15</FC>
+  </Fiscal_Omnis>
+</Options>
