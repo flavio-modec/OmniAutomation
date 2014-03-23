@@ -47,7 +47,8 @@ namespace OmniAutomation
                 {
                     line = txt.ReadLine();
                     if (string.IsNullOrEmpty(line)) break;
-                    time = Convert.ToDateTime(line.Substring(0, 18), dateFormat);
+                    try { time = Convert.ToDateTime(line.Substring(0, 18), dateFormat); }
+                    catch { continue; }
                     if (time < yesterday17) break; 
                     if (time < today17)
                     {
@@ -72,7 +73,8 @@ namespace OmniAutomation
                 {
                     line = txt.ReadLine();
                     if (string.IsNullOrEmpty(line)) break;
-                    time = Convert.ToDateTime(line.Substring(9, 17), dateFormat);
+                    try { time = Convert.ToDateTime(line.Substring(9, 17), dateFormat); }
+                    catch { continue; }
                     modbusID = Convert.ToUInt16(line.Substring(30, 5));
                     if (time < yesterday17) { break; }
                     if (time < today17 && modbusID != 100)  //eventID=100 is "Privilege Passwd" (not register in XML)

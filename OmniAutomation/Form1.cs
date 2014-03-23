@@ -13,6 +13,7 @@ namespace OmniAutomation
     public partial class Form1 : Form
     {
         Options myOptions = new Options();
+        public bool abort = false;
         static string myDirectory = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location);
         System.Timers.Timer daily = new System.Timers.Timer(); //create timer
 
@@ -122,6 +123,10 @@ namespace OmniAutomation
                         
             }
 
+            status.Text = "Log...";
+            LogCreator loger = new LogCreator();
+            loger.createLog(myOptions, myDirectory);
+
             status.Text = "XML004...";
             
              xmlCreator.getXML004(myOptions.fiscalOmnis, omniSN, myOptions.unitCode, myOptions.xml004Path, todayDir.FullName); 
@@ -141,6 +146,7 @@ namespace OmniAutomation
             setTimer();
             MessageBox.Show("Options were saved.");
         }
+
 
     }
 }

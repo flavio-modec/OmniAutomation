@@ -26,10 +26,11 @@ C:\Users\foliveira\documents\visual studio 2010\Projects\OmniAutomation\OmniAuto
 C:\Users\foliveira\documents\visual studio 2010\Projects\OmniAutomation\OmniAutomation\obj\x86\Release\OmniAutomation.csproj.GenerateResource.Cache
 C:\Users\foliveira\Documents\Visual Studio 2012\Projects\OmniAutomation\OmniAutomation\bin\Release\OmniAutomation.exe
 C:\Users\foliveira\Documents\Visual Studio 2012\Projects\OmniAutomation\OmniAutomation\bin\Release\OmniAutomation.pdb
-C:\Users\foliveira\Documents\Visual Studio 2012\Projects\OmniAutomation\OmniAutomation\obj\x86\Release\OmniAutomation.csprojResolveAssemblyReference.cache
 C:\Users\foliveira\Documents\Visual Studio 2012\Projects\OmniAutomation\OmniAutomation\obj\x86\Release\OmniAutomation.csproj.ResolveComReference.cache
 C:\Users\foliveira\Documents\Visual Studio 2012\Projects\OmniAutomation\OmniAutomation\obj\x86\Release\OmniAutomation.Form1.resources
 C:\Users\foliveira\Documents\Visual Studio 2012\Projects\OmniAutomation\OmniAutomation\obj\x86\Release\OmniAutomation.Properties.Resources.resources
 C:\Users\foliveira\Documents\Visual Studio 2012\Projects\OmniAutomation\OmniAutomation\obj\x86\Release\OmniAutomation.csproj.GenerateResource.Cache
 C:\Users\foliveira\Documents\Visual Studio 2012\Projects\OmniAutomation\OmniAutomation\obj\x86\Release\OmniAutomation.exe
 C:\Users\foliveira\Documents\Visual Studio 2012\Projects\OmniAutomation\OmniAutomation\obj\x86\Release\OmniAutomation.pdb
+C:\Users\foliveira\Documents\Visual Studio 2012\Projects\OmniAutomation\OmniAutomation\obj\x86\Release\OmniAutomation.csprojResolveAssemblyReference.cache
+C:\Users\foliveira\Documents\Visual Studio 2012\Projects\OmniAutomation\OmniAutomation\bin\Release\OmniAutomation.exe.config

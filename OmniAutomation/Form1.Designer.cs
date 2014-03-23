@@ -50,7 +50,7 @@
             // 
             // getReport
             // 
-            this.getReport.Location = new System.Drawing.Point(77, 130);
+            this.getReport.Location = new System.Drawing.Point(75, 127);
             this.getReport.Name = "getReport";
             this.getReport.Size = new System.Drawing.Size(76, 25);
             this.getReport.TabIndex = 0;

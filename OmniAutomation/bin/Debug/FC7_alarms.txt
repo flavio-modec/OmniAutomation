@@ -1,7 +1,0 @@
-                    Modec                                   
-                    Cidade de Santos                        
-                        Historical Alarm Report      Page :   1
-Date : 18/06/13   Time : 20:18:25  Computer ID:FC0261-2 Rev:24.75.00-9267
-
-Time      Date      Alarm                          State       Value        Gross m3/L    Mass ton/kg ID   Val 
-17:15:06  14/06/13  SE-1 Ethernet Link Down          OK      .000000E+00          .00          .00   2658   0

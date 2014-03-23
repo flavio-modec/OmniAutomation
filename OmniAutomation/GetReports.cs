@@ -140,7 +140,7 @@ namespace OmniAutomation
             {
                 CustomReadHoldingRegistersRequest readCmd = new CustomReadHoldingRegistersRequest(3, 1, 15129, 1);
                 cmdReg = master.ExecuteCustomMessage<CustomReadHoldingRegistersResponse>(readCmd);
-                Console.WriteLine(Convert.ToString(cmdReg.Data[1]));
+                //Console.WriteLine(Convert.ToString(cmdReg.Data[1]));  ----Old command for console version----
             } while (cmdReg.Data[1] != 0);
 
             //Read buffer

@@ -202,7 +202,7 @@ namespace OmniAutomation
             generalTab.Cells[3][17] = _general24.volDecPlaces;
             generalTab.Cells[3][18] = _general24.massDecPlaces;
             progress.Value = 8;
-
+            
             Worksheet flowmeterTab = Omni24.Sheets[2];
             for (ushort i = 0; i < 4; i++)
             {
@@ -304,7 +304,7 @@ namespace OmniAutomation
             }
             progress.Value = 60;
 
-            Omni24.SaveCopyAs(directory + "/FC" + Convert.ToString(_FC) + ".24.xls");
+            Omni24.SaveCopyAs(directory + "/FC" + Convert.ToString(_FC) + "_" + DateTime.Today.Date.ToString("dd-MMM-yyyy") + ".24.xls");
             //Omni24.ExportAsFixedFormat(XlFixedFormatType.xlTypePDF, directory + "/FC" + Convert.ToString(_FC) + ".24.pdf");
             Omni24.Close(false);
             excelApp.Quit();
@@ -703,7 +703,7 @@ namespace OmniAutomation
             
             progress.Value = 59;
 
-            Omni27.SaveCopyAs(directory+"/FC"+Convert.ToString(_FC)+".27.xls");
+            Omni27.SaveCopyAs(directory + "/FC" + Convert.ToString(_FC) + "_" + DateTime.Today.Date.ToString("dd-MMM-yyyy") + ".27.xls");
             //Omni27.ExportAsFixedFormat(XlFixedFormatType.xlTypePDF, directory + "/FC" + Convert.ToString(_FC) + ".27.pdf");
             Omni27.Close(false);
             excelApp.Quit();

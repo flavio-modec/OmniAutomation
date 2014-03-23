@@ -1,5 +1,5 @@
 <Options>
-  <Reports_Path>C:\OmniReports</Reports_Path>
+  <Reports_Path>C:/OmniReports</Reports_Path>
   <XML004_Path>C:\XLR\Reports</XML004_Path>
   <Unit_Code>10468</Unit_Code>
   <Generation_Time>17:30</Generation_Time>
